@@ -32,6 +32,9 @@ export default class SpotPopupComponent extends React.Component<Spot, {}> {
         <div>
           <ul>{forecasts}</ul>
         </div>
+        <a href="http://magicseaweed.com" target="_blank">
+          <img src="http://im-1-uk.msw.ms/msw_powered_by.png" />
+        </a>
       </div>
     );
   }
